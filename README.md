@@ -1,13 +1,13 @@
 # LA_project
- LA´Â Linear Algebra(¼±Çü´ë¼öÇÐ)ÀÇ ÁÙÀÓ¸»·Î¼­ ÇÁ·ÎÁ§Æ®¸¦ ÁøÇàÇÏ¸é¼­ ¼±Çü´ë¼öÇÐÀÇ °³³äÀ» ÀÌ¿ëÇÏ¿© ÇØ´ç °³³äÀ» ÀÌÇØÇÏ´Âµ¥ ÃÊÁ¡À» µÐ ÇÁ·ÎÁ§Æ®ÀÌ´Ù. 
+ LAëŠ” Linear Algebra(ì„ í˜•ëŒ€ìˆ˜í•™)ì˜ ì¤„ìž„ë§ë¡œì„œ í”„ë¡œì íŠ¸ë¥¼ ì§„í–‰í•˜ë©´ì„œ ì„ í˜•ëŒ€ìˆ˜í•™ì˜ ê°œë…ì„ ì´ìš©í•˜ì—¬ í•´ë‹¹ ê°œë…ì„ ì´í•´í•˜ëŠ”ë° ì´ˆì ì„ ë‘” í”„ë¡œì íŠ¸ì´ë‹¤. 
 
 ## [PROJECT NAME] Analysis on Word Vectors in word which contain connotaion meaning by making a simple model
 
 ### 1. Purpose of prject
-´Ü¾îÀÇ ÇÔÃàÀû ÀÇ¹Ì¸¦ ±àÁ¤ ¶Ç´Â ºÎÁ¤À¸·Î ºÐ·ùÇÏ´Â °£´ÜÇÑ ¸ðµ¨À» ¸¸µé¾î º»´Ù.
+ë‹¨ì–´ì˜ í•¨ì¶•ì  ì˜ë¯¸ë¥¼ ê¸ì • ë˜ëŠ” ë¶€ì •ìœ¼ë¡œ ë¶„ë¥˜í•˜ëŠ” ê°„ë‹¨í•œ ëª¨ë¸ì„ ë§Œë“¤ì–´ ë³¸ë‹¤.
 
 ### 2. How to make the model
-*Word2vec*ÀÌ¶ó´Â Python ¶óÀÌºê·¯¸®¸¦ ÀÌ¿ëÇÏµµ·Ï ÇÑ´Ù. *Word2vec*Àº ´Ü¾îµéÀ» ÀÓº£µù(embedding)ÇÏ¿© ´Ü¾îµéÀ» ºÐ¼®ÇÒ ¼ö ÀÖµµ·Ï µµ¿ÍÁØ´Ù. ½±°Ô ¸»ÇÏ¸é *Word2vec*Àº ´Ü¾îµéÀ» º¤ÅÍÈ­ ½ÃÄÑÁØ´Ù. °¨Á¤ÀûÀÎ ÀÇ¹Ì¸¦ Àß ³ªÅ¸³»´Â(±àÁ¤°ú ºÎÁ¤ÀÌ ¸íÈ®ÇÑ, ±Ø´ÜÀûÀÎ) text¸¦ ÇÐ½À µ¥ÀÌÅÍ·Î ¼±Á¤ÇÑ´Ù. ÀÌ¿¡ ´ëÇÑ ¼±Çà ¿¬±¸°¡ ¸¹ÀÌ ÀÖ´Ù. ±×·¸±â ¶§¹®¿¡ ±¸±Û¿¡ sentiment analysis with Word2vec¸¦ Ä¡¸é Á¤Á¦µÈ µ¥ÀÌÅÍ¸¦ ½±°Ô ±¸ÇÒ ¼ö ÀÖ´Ù. ÇØ´ç ÇÁ·ÎÁ§Æ®´Â http://ai.stanford.edu/~amaas/data/sentiment/ ¿¡¼­ ¾à 25000°³ÀÇ ±Ø´ÜÀûÀÎ ¿µÈ­ ¸®ºäµé¸¦ »ç¿ëÇÏ¿´´Ù. ¿µÈ­ Æò·Ð°ú ÇÔ²² ÆòÁ¡ÀÌ 1¿¡¼­ 10Á¡±îÁö ÀÖ´Ù. ¿©±â¼­ 5Á¡ º¸´Ù ÀûÀº Á¡¼ö¸¦ ¹ÞÀ¸¸é negative, 5Á¡ º¸´Ù ³ôÀ¸¸é positiveÇÑ ¹®ÀåÀÌ¶ó ÇÏ°í ÇÐ½À½ÃÄÑ modelÀ» ¸¸µç´Ù.
+*Word2vec*ì´ë¼ëŠ” Python ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ ì´ìš©í•˜ë„ë¡ í•œë‹¤. *Word2vec*ì€ ë‹¨ì–´ë“¤ì„ ìž„ë² ë”©(embedding)í•˜ì—¬ ë‹¨ì–´ë“¤ì„ ë¶„ì„í•  ìˆ˜ ìžˆë„ë¡ ë„ì™€ì¤€ë‹¤. ì‰½ê²Œ ë§í•˜ë©´ *Word2vec*ì€ ë‹¨ì–´ë“¤ì„ ë²¡í„°í™” ì‹œì¼œì¤€ë‹¤. ê°ì •ì ì¸ ì˜ë¯¸ë¥¼ ìž˜ ë‚˜íƒ€ë‚´ëŠ”(ê¸ì •ê³¼ ë¶€ì •ì´ ëª…í™•í•œ, ê·¹ë‹¨ì ì¸) textë¥¼ í•™ìŠµ ë°ì´í„°ë¡œ ì„ ì •í•œë‹¤. ì´ì— ëŒ€í•œ ì„ í–‰ ì—°êµ¬ê°€ ë§Žì´ ìžˆë‹¤. ê·¸ë ‡ê¸° ë•Œë¬¸ì— êµ¬ê¸€ì— sentiment analysis with Word2vecë¥¼ ì¹˜ë©´ ì •ì œëœ ë°ì´í„°ë¥¼ ì‰½ê²Œ êµ¬í•  ìˆ˜ ìžˆë‹¤. í•´ë‹¹ í”„ë¡œì íŠ¸ëŠ” http://ai.stanford.edu/~amaas/data/sentiment/ ì—ì„œ ì•½ 25000ê°œì˜ ê·¹ë‹¨ì ì¸ ì˜í™” ë¦¬ë·°ë“¤ë¥¼ ì‚¬ìš©í•˜ì˜€ë‹¤. ë˜í•œ ì •ì œëœ ë°ì´í„°ì´ê¸° ë•Œë¬¸ì— ì˜í™” í‰ë¡ ê³¼ í•¨ê»˜ í‰ì ì´ 1ì—ì„œ 10ì ê¹Œì§€ ìžˆìœ¼ë©° ì—¬ê¸°ì„œ 5ì  ë³´ë‹¤ ì ì€ ì ìˆ˜ë¥¼ ë°›ìœ¼ë©´ negative, 5ì  ë³´ë‹¤ ë†’ìœ¼ë©´ positiveí•œ ë¬¸ìž¥ì´ë¼ í•˜ì—¬ ì´ë¯¸ ë¶„ë¥˜ë„ ë˜ì–´ ìžˆëŠ” ìƒíƒœì´ë‹¤. ìš°ë¦¬ëŠ” ê·¸ëŸ¬í•œ ë°ì´í„°ë¥¼ í•™ìŠµì‹œì¼œ modelì„ ë§Œë“¤ ê²ƒì´ë‹¤.
 
 ### 3. How to evaluate the model
-¾à 25000°³ÀÇ ¸®ºäÁß ·£´ýÀ¸·Î 12500°³ÀÇ ¸®ºä·Î¸¸ ÇÐ½ÀÇÑ µÚ ³ª¸ÓÁö 12500°³ÀÇ ¸®ºä¸¦ °¡Áö°í test¸¦ ÁøÇàÇÑ´Ù. ¸ðµç ¸®ºä¿¡´Â ÆòÁ¡°ú ¹®ÀåÀÇ ¼ºÇâ(positive or negative)ÀÌ Á¤ÇØÁ® ÀÖ±â ¶§¹®¿¡ test¿ë ¸®ºä¸¦ ÇØ´ç ¸ðµ¨¿¡ ³Ö¾î¼­ ³ª¿Â °á°ú °ªÀÌ ¸Â´ÂÁö È®ÀÎÇÏ¿© Á¤È®µµ¸¦ ÃøÁ¤ÇÑ´Ù.
+ì•½ 25000ê°œì˜ ë¦¬ë·°ì¤‘ ëžœë¤ìœ¼ë¡œ 12500ê°œì˜ ë¦¬ë·°ë¡œë§Œ í•™ìŠµí•œ ë’¤ ë‚˜ë¨¸ì§€ 12500ê°œì˜ ë¦¬ë·°ë¥¼ ê°€ì§€ê³  testë¥¼ ì§„í–‰í•œë‹¤. ëª¨ë“  ë¦¬ë·°ì—ëŠ” í‰ì ê³¼ ë¬¸ìž¥ì˜ ì„±í–¥(positive or negative)ì´ ì •í•´ì ¸ ìžˆê¸° ë•Œë¬¸ì— testìš© ë¦¬ë·°ë¥¼ í•´ë‹¹ ëª¨ë¸ì— ë„£ì–´ì„œ ë‚˜ì˜¨ ê²°ê³¼ ê°’ì´ ë§žëŠ”ì§€ í™•ì¸í•˜ì—¬ ì •í™•ë„ë¥¼ ì¸¡ì •í•œë‹¤.
