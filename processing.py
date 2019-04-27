@@ -31,5 +31,5 @@ for senti in ['neg','pos']:
         value = evaluation(re_score)
         dict[id] = {'value':value, 'score':int(re_score[0]), 'text':review}
         id += 1
-with open('C:\\Users\\submi\\OneDrive\\바탕 화면\\review_.txt','wt') as f:
+with open('C:\\Users\\submi\\PycharmProjects\\makeDataset\\dataset.txt','wt') as f:
     print(dict, file=f, end = '\n')
